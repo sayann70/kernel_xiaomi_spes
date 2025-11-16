@@ -9,10 +9,3 @@ gensrcs {
     output_extension: "h",
 }
 
-cc_library_headers {
-    name: "qcom_audio_kernel_headers",
-    generated_headers: ["qcom-audio-kernel-includes"],
-    export_generated_headers: ["qcom-audio-kernel-includes"],
-    vendor: true,
-    recovery_available: true,
-}
